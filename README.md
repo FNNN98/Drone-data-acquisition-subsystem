@@ -1,6 +1,6 @@
 This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2. 
 
-It consists in a FREERTOS based data acquisition subsystem with Priority Inheritance Protocol (PIP) support for the 2 main tasks (taskI2cR and startPrintUART).
+It consists in a FREERTOS based data acquisition subsystem for a flying drone with Priority Inheritance Protocol (PIP) support for the 2 main tasks (taskI2cR and startPrintUART).
 
 By using the HAL provided by ST, the task taski2cR acquire the following RawData from the sensors provided by the IKS01A2:
 
