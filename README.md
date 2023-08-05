@@ -1,4 +1,3 @@
-https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/058934ec-9744-4e3f-b067-2b5e9b1a7397
 ## Description 
 This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2. 
 
@@ -41,6 +40,6 @@ Given the inability to provide thread-safe I2C communications between the Nucleo
 Considering that both taskI2cR and startPrintUart appear to write and read on the sensorData struct it was necessary to prevent priority inversion. For this reason I decided to use the semaphores provided by FREERTOS to introduce a simple but functional Priority Inheritance Protocol (PIP) implementation.
 
 
-
+https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/058934ec-9744-4e3f-b067-2b5e9b1a7397
 
 
