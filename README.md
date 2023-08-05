@@ -36,7 +36,7 @@ The 5 tasks tControlMotor, tAttitude, tAltitude, startPrintUart and taski2cR hav
 
 Moreover, the system appears to be compliant with CPU utilization estimations (0.3844 < 0.7568) and the Hyperbolic Bound for RM results in 1.4046 which is below the 2.0000 threshold. It's fair to assume that the system is fully compliant with the scheduling implementation.
 
-Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST in the case of using multiple tasks accessing to the I2C bus in a non-mutually exclusive way, I made the architectural decisions to use a single task running at 500hz to acquire data from the 4 sensors.
+Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST in the case of running multiple tasks accessing to the I2C bus in a non-mutually exclusive way, I made the architectural decisions to use a single task running at 500hz to acquire data from the 4 sensors.
 
 Considering that both taskI2cR and startPrintUart appear to write and read on the sensorData struct it was necessary to prevent priority inversion. For this reason I decided to use the semaphores provided by FREERTOS to introduce a simple but functional Priority Inheritance Protocol (PIP) implementation that automatically elevate priority of specific tasks to better manage scheduling in a preemptive environment.
 
