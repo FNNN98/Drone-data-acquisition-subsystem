@@ -1,6 +1,6 @@
 This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2. 
 
-It consists in a FREERTOS based data acquisition subsystem for a drone with Priority Inheritance Protocol (PIP) support for the 2 main tasks (taskI2cR and startPrintUART).
+It consists in a FREERTOS based data acquisition subsystem as part of a flight control software for a rotary-wing drone.
 
 By using the HAL provided by ST, the task taski2cR acquire the following RawData from the sensors provided by the IKS01A2:
 
@@ -25,6 +25,10 @@ By using the HAL provided by ST, the task taski2cR acquire the following RawData
 
 
 Accelerometer RawData from the LSM6DSL and the LSM303AGR is averaged and transformed into 
+
+#Scheduling
+
+Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST, I made the architectural decisions to use a single task running at 500hz to poll each sensor with each iteration. 
 
 https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/058934ec-9744-4e3f-b067-2b5e9b1a7397
 
