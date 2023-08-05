@@ -15,6 +15,8 @@ By using the HAL provided by ST, the task taski2cR acquire the following RawData
 - LSM6DSL Gyroscope
   Data acquired with ODR set to 833 Hz,
   FS = ±2000 with 70 mdps/LSB sensitivity
+
+  Gyroscope data is then converted into angular speed vector 
     
 - LSM303AGR Accelerometer
   Data acquired with ODR set to 200 Hz,
@@ -26,8 +28,7 @@ By using the HAL provided by ST, the task taski2cR acquire the following RawData
 
 
 Accelerometer RawData from the LSM6DSL and the LSM303AGR is then averaged and saved on a data struct. 
-Gyroscope data is then converted into angular speed vector rad⋅s−1 
-
+Gyroscope data is then converted into angular speed vector 
 ## Scheduling
 
 Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST, I made the architectural decisions to use a single task running at 500hz to poll each sensor with each iteration. 
