@@ -8,19 +8,19 @@ By using the HAL provided by ST, the task taski2cR acquire the following RawData
   Data acquired with ODR set to 50 Hz
   
 - LSM6DSL Accelerometer
-  Data acquired with ODR set to 833 Hz
+  Data acquired with ODR set to 833 Hz,
   FS = ±2 with 0.61 mg/LSB sensitivity
  
 - LSM6DSL Gyroscope
-  Data acquired with ODR set to 833 Hz
+  Data acquired with ODR set to 833 Hz,
   FS = ±2000 with 70 mdps/LSB sensitivity
     
 - LSM303AGR Accelerometer
-  Data acquired with ODR set to 200 Hz
+  Data acquired with ODR set to 200 Hz,
   FS = ±2 g with 3.9 mg/LSB sensitivity)
   
 - LSM303AGR Magnetometer
-  Data acquired with ODR set to 100 Hz
+  Data acquired with ODR set to 100 Hz,
   1.5 mgauss/LSB sensitivity)
 
 
