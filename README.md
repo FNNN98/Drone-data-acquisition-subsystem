@@ -1,6 +1,9 @@
-This project is powered by a STM32F767ZI paired with a X-NUCLEO-IKS01A2. 
+This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2. 
 
-It features a FREERTOS based data acquisition subsystem which reads the accelerometer, gyroscope, barometer and magnetometer wit functions provided by the ST HAL.
+It consists in a FREERTOS based data acquisition subsystem with priority inheritance protocol (PIP) support for the 2 main tasks (taskI2cR and startPrintUART).
+
+![image](https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/7c839c79-2b2a-4f84-a5ca-d19d5309a7f6)
+By using the HAL provided by ST, the task taski2cR 
 
 
 
