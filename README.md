@@ -25,7 +25,8 @@ By using the HAL provided by ST, the task taski2cR acquire the following RawData
   1.5 mgauss/LSB sensitivity)
 
 
-Accelerometer RawData from the LSM6DSL and the LSM303AGR is averaged and saved on a data struct.
+Accelerometer RawData from the LSM6DSL and the LSM303AGR is then averaged and saved on a data struct. 
+Gyroscope data is then converted into angular speed vector rad⋅s−1 
 
 ## Scheduling
 
