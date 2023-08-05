@@ -1,5 +1,7 @@
 ## Description 
 This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2. 
+![IMG_20230518_181728 - Copia](https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/5fd5dc45-3719-47d9-9bdd-9cf4e326ea56)
+![IMG_20230527_142431 - Copia](https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/10fee20d-5f19-4544-8f0e-ff939ff2479a)
 
 It consists in a FREERTOS based data acquisition subsystem as part of a flight control software for a rotary-wing drone.
 
@@ -36,9 +38,8 @@ The 5 tasks tControlMotor, tAttitude, tAltitude, startPrintUart and taski2cR hav
 
 Moreover, the system appears to be compliant with CPU utilization estimations (0.3844 < 0.7568) and the Hyperbolic Bound for RM results in 1.4046 which is below the 2.0000 threshold. It's fair to assume that the system is fully compliant with the scheduling implementation.
 
-Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST, I made the architectural decisions to use a single task running at 500hz to poll each sensor with each iteration. 
-
-Considering that both taskI2cR and startPrintUart appear to write and read on the sensorData struct it was necessary to prevent priority inversion
+Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST, I made the architectural decisions to use a single task running at 500hz to acquire data from the 4 sensors with each iteration.
+Considering that both taskI2cR and startPrintUart appear to write and read on the sensorData struct it was necessary to prevent priority inversion. For this reason I decided to use the semaphores provided by FREERTOS to introduce a simple but functional Priority Inheritance Protocol (PIP) implementation.
 
 https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/058934ec-9744-4e3f-b067-2b5e9b1a7397
 
