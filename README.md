@@ -24,9 +24,9 @@ By using the HAL provided by ST, the task taski2cR acquire the following RawData
   1.5 mgauss/LSB sensitivity)
 
 
-Accelerometer RawData from the LSM6DSL and the LSM303AGR is averaged and transformed into 
+Accelerometer RawData from the LSM6DSL and the LSM303AGR is averaged and saved on a data struct.
 
-#Scheduling
+### Scheduling
 
 Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST, I made the architectural decisions to use a single task running at 500hz to poll each sensor with each iteration. 
 
