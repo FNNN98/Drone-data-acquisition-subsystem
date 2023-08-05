@@ -34,9 +34,9 @@ Data is later converted into the tridimensional vector of acceleration (rad·sec
   1.5 mgauss/LSB sensitivity
 Data is later converted into the tridimensional vector of magnetic flux (microT)
 
+
 *Accelerometer RawData from the LSM6DSL and the LSM303AGR is then averaged and saved on a data struct. 
 
-All data is then converted respectively into rad⋅s^−1, 
 
 A second task startPrintUart() , operating at 0.5hz, uses a custom _write() function to transmit real-time data over UART which can be read from the console.
 
