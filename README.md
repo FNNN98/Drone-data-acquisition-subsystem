@@ -16,6 +16,7 @@ By using the HAL provided by ST, the task taski2cR() acquire the following RawDa
 - LSM6DSL Gyroscope
   Sensor polled with ODR set to 833 Hz,
   FS = ±2000 with 70 mdps/LSB sensitivity
+  Data is later converted into rad·sec−1
 
     
 - LSM303AGR Accelerometer
@@ -29,7 +30,7 @@ By using the HAL provided by ST, the task taski2cR() acquire the following RawDa
 
 *Accelerometer RawData from the LSM6DSL and the LSM303AGR is then averaged and saved on a data struct. 
 
-All data is then converted respectively into rad⋅s$^−1 
+All data is then converted respectively into rad⋅s^−1, 
 
 A second task startPrintUart() , operating at 0.5hz, uses a custom _write() function to transmit real-time data over UART which can be read from the console.
 
