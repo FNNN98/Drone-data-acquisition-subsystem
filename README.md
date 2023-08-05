@@ -16,8 +16,9 @@ By using the HAL provided by ST, the task taski2cR() acquire the following RawDa
 - LSM6DSL Gyroscope
   Sensor polled with ODR set to 833 Hz,
   FS = ±2000 with 70 mdps/LSB sensitivity
-  
-  Data is later converted into rad·sec−1
+Data is later converted into rad·sec−1
+
+
 
     
 - LSM303AGR Accelerometer
