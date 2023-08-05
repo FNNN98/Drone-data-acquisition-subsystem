@@ -3,6 +3,7 @@ This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2.
 
 It consists in a FREERTOS based data acquisition subsystem as part of a flight control software for a rotary-wing drone.
 
+
 By using the HAL provided by ST, the task taski2cR() acquire the following RawData from the sensors on the IKS01A2 and save it on the sensorData struct:
 
 - LPS22HB Barometer
