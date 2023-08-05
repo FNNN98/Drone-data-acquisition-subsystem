@@ -38,7 +38,7 @@ Moreover, the system appears to be compliant with CPU utilization estimations (0
 
 Given the inability to provide thread-safe I2C communications between the Nucleo board and the shield when using the HAL provided by ST in the case of using multiple tasks accessing to the I2C bus in a non-mutually exclusive way, I made the architectural decisions to use a single task running at 500hz to acquire data from the 4 sensors.
 
-Considering that both taskI2cR and startPrintUart appear to write and read on the sensorData struct it was necessary to prevent priority inversion. For this reason I decided to use the semaphores provided by FREERTOS to introduce a simple but functional Priority Inheritance Protocol (PIP) implementation.
+Considering that both taskI2cR and startPrintUart appear to write and read on the sensorData struct it was necessary to prevent priority inversion. For this reason I decided to use the semaphores provided by FREERTOS to introduce a simple but functional Priority Inheritance Protocol (PIP) implementation that automatically elevate priority of specific tasks to better manage scheduling in a preemptive environment.
 
 
 https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/058934ec-9744-4e3f-b067-2b5e9b1a7397
