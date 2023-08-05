@@ -1,0 +1,11 @@
+iks01a2_env_sensors.c:100:9:IKS01A2_ENV_SENSOR_Init	18
+iks01a2_env_sensors.c:265:9:IKS01A2_ENV_SENSOR_DeInit	3
+iks01a2_env_sensors.c:291:9:IKS01A2_ENV_SENSOR_GetCapabilities	3
+iks01a2_env_sensors.c:317:9:IKS01A2_ENV_SENSOR_ReadID	3
+iks01a2_env_sensors.c:345:9:IKS01A2_ENV_SENSOR_Enable	4
+iks01a2_env_sensors.c:383:9:IKS01A2_ENV_SENSOR_Disable	4
+iks01a2_env_sensors.c:422:9:IKS01A2_ENV_SENSOR_GetOutputDataRate	4
+iks01a2_env_sensors.c:461:9:IKS01A2_ENV_SENSOR_SetOutputDataRate	4
+iks01a2_env_sensors.c:500:9:IKS01A2_ENV_SENSOR_GetValue	4
+iks01a2_env_sensors.c:545:16:HTS221_0_Probe	14
+iks01a2_env_sensors.c:630:16:LPS22HB_0_Probe	14

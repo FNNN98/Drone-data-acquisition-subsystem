@@ -1,0 +1,6 @@
+accel.c:17:13:applyAccelerationTrims	1
+accel.c:25:13:accInitFilters	4
+accel.c:45:13:setAccelerationTrims	1
+accel.c:50:6:accInit	1
+accel.c:80:6:accUpdate	6
+accel.c:107:6:accGetAccumulationAverage	4

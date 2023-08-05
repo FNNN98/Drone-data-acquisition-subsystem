@@ -1,0 +1,15 @@
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:55:9:IKS01A2_ENV_SENSOR_FIFO_Get_Data	32	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:114:9:IKS01A2_ENV_SENSOR_FIFO_Get_Fth_Status	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:173:9:IKS01A2_ENV_SENSOR_FIFO_Get_Full_Status	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:232:9:IKS01A2_ENV_SENSOR_FIFO_Get_Num_Samples	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:291:9:IKS01A2_ENV_SENSOR_FIFO_Get_Ovr_Status	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:350:9:IKS01A2_ENV_SENSOR_FIFO_Reset_Interrupt	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:409:9:IKS01A2_ENV_SENSOR_FIFO_Set_Interrupt	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:468:9:IKS01A2_ENV_SENSOR_FIFO_Set_Mode	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:527:9:IKS01A2_ENV_SENSOR_FIFO_Set_Watermark_Level	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:586:9:IKS01A2_ENV_SENSOR_FIFO_Usage	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:635:9:IKS01A2_ENV_SENSOR_Get_DRDY_Status	32	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:800:9:IKS01A2_ENV_SENSOR_Read_Register	32	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:886:9:IKS01A2_ENV_SENSOR_Write_Register	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:970:9:IKS01A2_ENV_SENSOR_Set_One_Shot	24	static
+../Drivers/BSP/IKS01A2/iks01a2_env_sensors_ex.c:1055:9:IKS01A2_ENV_SENSOR_Get_One_Shot_Status	24	static

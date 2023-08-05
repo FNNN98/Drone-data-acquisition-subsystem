@@ -1,0 +1,16 @@
+../Core/Src/imu.c:69:14:getCosTiltAngle	4	static
+../Core/Src/imu.c:74:13:imuQuaternionComputeProducts	16	static
+../Core/Src/imu.c:88:13:imuComputeRotationMatrix	8	static
+../Core/Src/imu.c:104:14:calculateAccZLowPassFilterRCTimeConstant	16	static
+../Core/Src/imu.c:109:14:calculateThrottleAngleScale	16	static
+../Core/Src/imu.c:114:13:imuConfigure	16	static
+../Core/Src/imu.c:127:6:imuInit	8	static
+../Core/Src/imu.c:134:13:imuIsAccelerometerHealthy	32	static
+../Core/Src/imu.c:148:14:invSqrt	16	static
+../Core/Src/imu.c:153:13:imuMahonyAHRSupdate	136	static
+../Core/Src/imu.c:275:13:imuUpdateEulerAngles	8	static
+../Core/Src/imu.c:286:14:imuCalcKpGain	32	static
+../Core/Src/imu.c:347:6:imuCalculateEstimatedAttitude	72	static
+../Core/Src/imu.c:377:12:calculateThrottleAngleCorrection	24	static
+../Core/Src/imu.c:393:13:mixerSetThrottleAngleCorrection	16	static
+../Core/Src/imu.c:395:6:imuCalculateThrottleAngleCorrection	16	static

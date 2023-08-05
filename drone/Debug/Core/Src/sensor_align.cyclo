@@ -1,0 +1,3 @@
+sensor_align.c:11:6:buildRotationMatrixFromAlignment	1
+sensor_align.c:21:6:buildAlignmentFromStandardAlignment	4
+sensor_align.c:36:6:alignSensorViaRotation	8

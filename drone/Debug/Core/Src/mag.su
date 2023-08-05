@@ -1,0 +1,3 @@
+../Core/Src/mag.c:36:13:compassDetect	24	static
+../Core/Src/mag.c:84:6:magInit	24	static
+../Core/Src/mag.c:108:6:magUpdate	16	static

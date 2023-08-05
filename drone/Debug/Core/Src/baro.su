@@ -1,0 +1,10 @@
+../Core/Src/baro.c:34:40:barometerConfig	4	static
+../Core/Src/baro.c:36:13:pgResetFn_barometerConfig	16	static
+../Core/Src/baro.c:48:13:lpsNothing	16	static
+../Core/Src/baro.c:54:13:lpsNothingBool	16	static
+../Core/Src/baro.c:60:13:lpsNothingCalculate	16	static
+../Core/Src/baro.c:67:13:lpsDetect	16	static
+../Core/Src/baro.c:82:13:baroDetect	24	static
+../Core/Src/baro.c:126:14:pressureToAltitude	16	static
+../Core/Src/baro.c:131:6:baroInit	16	static
+../Core/Src/baro.c:144:6:baroUpdate	16	static

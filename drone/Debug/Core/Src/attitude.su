@@ -1,0 +1,2 @@
+../Core/Src/attitude.c:11:6:attitudeInit	8	static
+../Core/Src/attitude.c:15:6:attitudeUpdate	8	static

@@ -1,0 +1,17 @@
+../Core/Src/gyro.c:21:13:gyroSetTargetLooptime	16	static
+../Core/Src/gyro.c:33:17:gyroSetSampleRate	24	static
+../Core/Src/gyro.c:43:13:gyroInitSlewLimiter	24	static
+../Core/Src/gyro.c:49:13:gyroInitSensorFilters	16	static
+../Core/Src/gyro.c:54:13:gyroInitSensor	24	static
+../Core/Src/gyro.c:80:17:calculateNyquistAdjustedNotchHz	24	static
+../Core/Src/gyro.c:94:13:gyroInitLowpassFilterLpf	64	static
+../Core/Src/gyro.c:165:13:gyroInitFilterNotch1	24	static
+../Core/Src/gyro.c:180:13:gyroInitFilterNotch2	24	static
+../Core/Src/gyro.c:195:13:gyroInitFilters	8	static
+../Core/Src/gyro.c:217:6:gyroInit	16	static
+../Core/Src/gyro.c:252:13:gyroUpdateSensor	16	static
+../Core/Src/gyro.c:267:13:gyroFilter	16	static
+../Core/Src/gyro.c:294:13:gyroAccumulateMeasurements	16	static
+../Core/Src/gyro.c:303:6:gyroUpdate	8	static
+../Core/Src/gyro.c:326:6:gyroGetAccumulationAverage	32	static
+../Core/Src/gyro.c:345:6:gyroOverflowDetected	4	static

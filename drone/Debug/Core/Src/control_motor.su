@@ -1,0 +1,2 @@
+../Core/Src/control_motor.c:12:6:controlMotorInit	8	static
+../Core/Src/control_motor.c:16:6:controlMotorUpdate	8	static

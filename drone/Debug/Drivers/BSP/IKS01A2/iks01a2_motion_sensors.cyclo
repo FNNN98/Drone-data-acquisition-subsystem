@@ -1,0 +1,16 @@
+iks01a2_motion_sensors.c:149:9:IKS01A2_MOTION_SENSOR_Init	25
+iks01a2_motion_sensors.c:614:9:IKS01A2_MOTION_SENSOR_DeInit	3
+iks01a2_motion_sensors.c:640:9:IKS01A2_MOTION_SENSOR_GetCapabilities	3
+iks01a2_motion_sensors.c:666:9:IKS01A2_MOTION_SENSOR_ReadID	3
+iks01a2_motion_sensors.c:695:9:IKS01A2_MOTION_SENSOR_Enable	4
+iks01a2_motion_sensors.c:734:9:IKS01A2_MOTION_SENSOR_Disable	4
+iks01a2_motion_sensors.c:774:9:IKS01A2_MOTION_SENSOR_GetAxes	4
+iks01a2_motion_sensors.c:814:9:IKS01A2_MOTION_SENSOR_GetAxesRaw	4
+iks01a2_motion_sensors.c:854:9:IKS01A2_MOTION_SENSOR_GetSensitivity	4
+iks01a2_motion_sensors.c:895:9:IKS01A2_MOTION_SENSOR_GetOutputDataRate	4
+iks01a2_motion_sensors.c:935:9:IKS01A2_MOTION_SENSOR_GetFullScale	4
+iks01a2_motion_sensors.c:976:9:IKS01A2_MOTION_SENSOR_SetOutputDataRate	4
+iks01a2_motion_sensors.c:1016:9:IKS01A2_MOTION_SENSOR_SetFullScale	4
+iks01a2_motion_sensors.c:1060:16:LSM6DSL_0_Probe	14
+iks01a2_motion_sensors.c:1142:16:LSM303AGR_ACC_0_Probe	12
+iks01a2_motion_sensors.c:1217:16:LSM303AGR_MAG_0_Probe	12

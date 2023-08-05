@@ -1,0 +1,2 @@
+../Core/Src/sensors.c:10:6:sensorsInit	24	static
+../Core/Src/sensors.c:17:6:sensorsUpdate	8	static

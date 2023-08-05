@@ -1,0 +1,7 @@
+flight_math.c:17:7:sin_approx	7
+flight_math.c:29:7:cos_approx	1
+flight_math.c:34:7:acos_approx	2
+flight_math.c:44:7:atan2_approx	7
+flight_math.c:67:6:rotateVector	2
+flight_math.c:80:6:buildRotationMatrix	1
+flight_math.c:108:7:degreesToRadians	1

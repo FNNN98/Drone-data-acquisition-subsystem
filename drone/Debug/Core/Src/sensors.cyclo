@@ -1,0 +1,2 @@
+sensors.c:10:6:sensorsInit	1
+sensors.c:17:6:sensorsUpdate	1

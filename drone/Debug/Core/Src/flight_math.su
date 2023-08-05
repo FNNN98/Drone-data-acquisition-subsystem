@@ -1,0 +1,7 @@
+../Core/Src/flight_math.c:17:7:sin_approx	24	static
+../Core/Src/flight_math.c:29:7:cos_approx	16	static
+../Core/Src/flight_math.c:34:7:acos_approx	24	static
+../Core/Src/flight_math.c:44:7:atan2_approx	48	static
+../Core/Src/flight_math.c:67:6:rotateVector	32	static
+../Core/Src/flight_math.c:80:6:buildRotationMatrix	56	static
+../Core/Src/flight_math.c:108:7:degreesToRadians	16	static

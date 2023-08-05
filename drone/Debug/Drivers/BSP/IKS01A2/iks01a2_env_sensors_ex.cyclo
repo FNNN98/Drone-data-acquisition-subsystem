@@ -1,0 +1,15 @@
+iks01a2_env_sensors_ex.c:55:9:IKS01A2_ENV_SENSOR_FIFO_Get_Data	3
+iks01a2_env_sensors_ex.c:114:9:IKS01A2_ENV_SENSOR_FIFO_Get_Fth_Status	3
+iks01a2_env_sensors_ex.c:173:9:IKS01A2_ENV_SENSOR_FIFO_Get_Full_Status	3
+iks01a2_env_sensors_ex.c:232:9:IKS01A2_ENV_SENSOR_FIFO_Get_Num_Samples	3
+iks01a2_env_sensors_ex.c:291:9:IKS01A2_ENV_SENSOR_FIFO_Get_Ovr_Status	3
+iks01a2_env_sensors_ex.c:350:9:IKS01A2_ENV_SENSOR_FIFO_Reset_Interrupt	3
+iks01a2_env_sensors_ex.c:409:9:IKS01A2_ENV_SENSOR_FIFO_Set_Interrupt	3
+iks01a2_env_sensors_ex.c:468:9:IKS01A2_ENV_SENSOR_FIFO_Set_Mode	3
+iks01a2_env_sensors_ex.c:527:9:IKS01A2_ENV_SENSOR_FIFO_Set_Watermark_Level	3
+iks01a2_env_sensors_ex.c:586:9:IKS01A2_ENV_SENSOR_FIFO_Usage	3
+iks01a2_env_sensors_ex.c:635:9:IKS01A2_ENV_SENSOR_Get_DRDY_Status	11
+iks01a2_env_sensors_ex.c:800:9:IKS01A2_ENV_SENSOR_Read_Register	5
+iks01a2_env_sensors_ex.c:886:9:IKS01A2_ENV_SENSOR_Write_Register	5
+iks01a2_env_sensors_ex.c:970:9:IKS01A2_ENV_SENSOR_Set_One_Shot	5
+iks01a2_env_sensors_ex.c:1055:9:IKS01A2_ENV_SENSOR_Get_One_Shot_Status	5

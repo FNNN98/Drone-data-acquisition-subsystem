@@ -1,0 +1,6 @@
+../Core/Src/accel.c:17:13:applyAccelerationTrims	16	static
+../Core/Src/accel.c:25:13:accInitFilters	16	static
+../Core/Src/accel.c:45:13:setAccelerationTrims	16	static
+../Core/Src/accel.c:50:6:accInit	24	static
+../Core/Src/accel.c:80:6:accUpdate	24	static
+../Core/Src/accel.c:107:6:accGetAccumulationAverage	24	static

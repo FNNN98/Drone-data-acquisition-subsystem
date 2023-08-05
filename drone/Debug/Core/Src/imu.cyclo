@@ -1,0 +1,16 @@
+imu.c:69:14:getCosTiltAngle	1
+imu.c:74:13:imuQuaternionComputeProducts	1
+imu.c:88:13:imuComputeRotationMatrix	1
+imu.c:104:14:calculateAccZLowPassFilterRCTimeConstant	1
+imu.c:109:14:calculateThrottleAngleScale	1
+imu.c:114:13:imuConfigure	1
+imu.c:127:6:imuInit	1
+imu.c:134:13:imuIsAccelerometerHealthy	4
+imu.c:148:14:invSqrt	1
+imu.c:153:13:imuMahonyAHRSupdate	10
+imu.c:275:13:imuUpdateEulerAngles	2
+imu.c:286:14:imuCalcKpGain	15
+imu.c:347:6:imuCalculateEstimatedAttitude	2
+imu.c:377:12:calculateThrottleAngleCorrection	3
+imu.c:393:13:mixerSetThrottleAngleCorrection	1
+imu.c:395:6:imuCalculateThrottleAngleCorrection	1

@@ -1,0 +1,3 @@
+../Core/Src/sensor_align.c:11:6:buildRotationMatrixFromAlignment	32	static
+../Core/Src/sensor_align.c:21:6:buildAlignmentFromStandardAlignment	24	static
+../Core/Src/sensor_align.c:36:6:alignSensorViaRotation	32	static
