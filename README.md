@@ -8,12 +8,14 @@ By using the HAL provided by ST, the task taski2cR() acquire the following RawDa
 
 - LPS22HB Barometer
   Sensor polled with ODR set to 50 Hz
-  
+
+Data is acquired in Hectopascal (hPa)
+
 - LSM6DSL Accelerometer
   Sensor polled with ODR set to 833 Hz,
   FS = ±2 with 0.61 mg/LSB sensitivity
   
-Data is later converted into the tridimensional vector of angular speeds (rad·sec^−1)
+Data is later converted into the tridimensional vector of acceleration (rad·sec^−1)
 
 - LSM6DSL Gyroscope
   Sensor polled with ODR set to 833 Hz,
@@ -25,12 +27,12 @@ Data is later converted into the tridimensional vector of angular speeds (rad·s
   Sensor polled with ODR set to 200 Hz,
   FS = ±2 g with 3.9 mg/LSB sensitivity
 
-Data is later converted into the tridimensional vector of angular speeds (rad·sec^−1)
+Data is later converted into the tridimensional vector of acceleration (rad·sec^−1)
 
 - LSM303AGR Magnetometer
   Sensor polled with ODR set to 100 Hz,
   1.5 mgauss/LSB sensitivity
-Data is later converted into the tridimensional vector of angular speeds (rad·sec^−1)
+Data is later converted into the tridimensional vector of magnetic flux (microT)
 
 *Accelerometer RawData from the LSM6DSL and the LSM303AGR is then averaged and saved on a data struct. 
 
