@@ -1,6 +1,6 @@
 ## Description 
 This project is powered by a STM32F767ZI and a X-NUCLEO-IKS01A2. 
-![IMG_20230518_181728 - Copia](https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/5fd5dc45-3719-47d9-9bdd-9cf4e326ea56)
+
 ![IMG_20230527_142431 - Copia](https://github.com/FNNN98/Drone-data-acquisition-subsystem/assets/49247414/10fee20d-5f19-4544-8f0e-ff939ff2479a)
 
 It consists in a FREERTOS based data acquisition subsystem as part of a flight control software for a rotary-wing drone.
